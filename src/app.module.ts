@@ -7,7 +7,7 @@ import { CustomApiModule } from './custom-api/custom-api.module';
 
 @Module({
   imports: [ConfigApiModule,CustomApiModule,
-    MongooseModule.forRoot('mongodb+srv://ganesh1010:ganesh1010@cluster0.ecbqzlj.mongodb.net//sunscreen')],
+    MongooseModule.forRoot('mongodb+srv://ganesh1010:ganesh1010@cluster0.ecbqzlj.mongodb.net/sunscreen')],
   controllers: [AppController],
   providers: [AppService],
 })
