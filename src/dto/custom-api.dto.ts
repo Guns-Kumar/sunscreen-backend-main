@@ -10,7 +10,7 @@ export class CustomApiDto {
     regularExpression: string[];
     comment: string;
     action: string;
-    RGB: number;
+    RGB: string[];
     value: string;
   }
   

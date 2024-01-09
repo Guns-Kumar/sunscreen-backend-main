@@ -17,8 +17,8 @@ export class CustomLibraryTerm {
   @Prop()
   value: string;
 
-  @Prop([Number])
-  RGB: number[];
+  @Prop([String])
+  RGB: string[];
 
 }
 
